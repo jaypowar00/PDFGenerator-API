@@ -67,7 +67,7 @@ def createStyledPdf(obj=[]):
     '''
     pdf = SimpleDocTemplate("pythonpdf.pdf",pagesize=letter)
     data = [
-        ['First Name','Last Name','Age','Saraly'],
+        ['First Name','Last Name','Age','Salary'],
         ['Joe','Smith',24,'Rs.59400'],
         ['Klark','Kent',19,'Rs.89900']
     ]
