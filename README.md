@@ -15,8 +15,8 @@ Accessing with this request will generate pdf with predefined data.
 Accessing with this request will generate pdf with given data.  
 The Provided data will be used to create one row in second Table in the pdf.  
 (PS: The first pdf will remain unchanged)  
-Request Data can be a FormData or Json  
+Request Data can be a `FormData` or `Json`  
 + accepted paramters:  
-  - 'color' -- This is a string value (e.g.'Red')
-  - 'amount' -- This is a integer value (e.g. 67)
-  - 'price' --  This can be either a integer or string value (e.g. 399 or 'Rs.399')
+  - `color` -- This is a string value (e.g.'Red')
+  - `amount` -- This is a integer value (e.g. 67)
+  - `price` --  This can be either a integer or string value (e.g. 399 or 'Rs.399')
